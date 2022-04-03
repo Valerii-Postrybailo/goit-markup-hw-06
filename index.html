@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Студия</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container main-nav">
+        <nav>
+        
+          <a class="header-logo" href="index.html">Web<span>Studio</span></a>
+        
+          <ul class="site-nav">
+            <li> <a class="link current-page" href="index.html">Студия</a> </li>
+            <li> <a class="link" href="portfolio.html">Портфолио</a> </li>
+            <li> <a class="link" href="#!">Контакты</a> </li>
+          </ul>
+        
+        </nav>
+        
+        <ul class="mail-and-tel">
+          <li>
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-envelope"></use> 
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+
+          <li>
+            <a class="link" href="tel:+380961111111">
+              <svg class="contact-icon" width="10" height="16">
+                <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-Vector"></use>
+              </svg>
+              +38 096 111 11 11
+            </a> 
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-name">Эффективные решения<br> для вашего бизнеса</h1>
+          <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
+        </div>
+      </section>
+
+      <section class="first-main-section">
+        <div class="container">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <!--Скрытый заголовок-->
+          
+          <ul class="services">
+            <li>
+              <div class="features-icons">
+                <svg width="70px" height="70px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3>Внимание к деталям</h3>
+              <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </li>
+          
+            <li>
+              <div class="features-icons">
+                <svg width="70px" height="70px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3>Пунктуальность</h3>
+              <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой. </p>
+            </li>
+          
+            <li>
+              <div class="features-icons">
+                <svg width="70px" height="70px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3>Планирование </h3>
+              <p>Равным образом консультация с широким активом в значительной степени обуславливает. </p>
+            </li>
+          
+            <li>
+              <div class="features-icons">
+                <svg width="70px" height="70px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3>Современные технологии </h3>
+              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий. </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="second-main-section">
+        <div class="container">
+          <h2 class="second-section-title">Чем мы занимаемся</h2>
+          
+          <ul class="img-list">
+            <li class="our-work-img"> 
+              <img src="first-page-images/img-one.jpg" alt="верстка" title="верстка" width="370"> 
+              <p>Десктопные приложения</p>
+            </li>
+            <li class="our-work-img"> 
+              <img src="first-page-images/img-two.jpg" alt="адаптивная верстка" title="адаптивная верстка" width="370"> 
+              <p>Мобильные приложения</p>
+            </li>
+            <li class="our-work-img">
+              <img src="first-page-images/img-three.jpg" alt="дизайн" title="дизайн" width="370"> 
+              <p>Дизайнерские решения</p>
+              </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="third-main-section">
+        <div class="container">
+          <h2 class="third-main-title">Наша команда</h2>
+          
+          <ul class="worderks-description">
+            
+            <li class="card">
+              <img src="first-page-images/product-designer.jpg" alt="Игорь Демьяненко" width="270">
+              <div class="card-text">
+                <h3>Игорь Демьяненко</h3>
+                <p>Product Designer</p>
+                <ul class="social-messengers">
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-instagram"> </use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-twitter"> </use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-facebook"> </use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-linkedin"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          
+            <li class="card">
+              <img src="first-page-images/front-developer.jpg" alt="Ольга Репина" width="270">
+              <div class="card-text">
+                <h3>Ольга Репина</h3>
+                <p>Frontend Developer</p>
+                <ul class="social-messengers">
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-instagram"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-twitter"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-facebook"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-linkedin"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          
+            <li class="card">
+              <img src="first-page-images/marketing.jpg" alt="Николай Тарасов" width="270">
+              <div class="card-text">
+                <h3>Николай Тарасов</h3>
+                <p>Marketing</p>
+                <ul class="social-messengers">
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-instagram"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-twitter"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-facebook"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-linkedin"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          
+            <li class="card">
+              <img src="first-page-images/ui-designer.jpg" alt="Михаил Ермаков" width="270">
+              <div class="card-text">
+                <h3>Михаил Ермаков</h3>
+                <p>UI Designer</p>
+                <ul class="social-messengers">
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-instagram"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-twitter"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-facebook"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a class="personal-page" href="#!">
+                      <svg class="person-link" width="20px" height="20px">
+                        <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-linkedin"> </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="fourth-main-section">
+        <div class="container">
+          <h2 class="fourth-main-title">Постоянные клиенты</h2>
+          <ul class="clients-list">
+            <li>
+              <a class="client" href="#!">
+                <svg class="logo" width="106" height="60">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-Logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="client" href="#!">
+                <svg class="logo" width="106" height="60">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="client" href="#!">
+                <svg class="logo" width="106" height="60">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="client" href="#!">
+                <svg class="logo" width="106" height="60">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="client" href="#!">
+                <svg class="logo" width="106" height="60">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-Logo-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="client" href="#!">
+                <svg class="logo" width="106" height="60">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-Logo-6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-address">
+          <a href="#!" class="footer-logo">Web<span>Studio</span> </a>
+          
+          <address class="address">
+            <ul>
+              <li><a class="link-address" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">г. Киев, пр-т
+                  Леси Украинки, 26</a> </li>
+              <li><a class="link" href="mailto:info@devstudio.com">info@example.com</a> </li>
+              <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="social-pages">
+          <h3 class="social-pages-title">присоединяйтесь</h3>
+          <ul class="social-messengers">
+            <li>
+              <a class="site-messanger" href="#!">
+                <svg class="site-messanger-link" width="20px" height="20px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-instagram"> </use>
+                </svg>
+              </a>
+            </li>
+        
+            <li>
+              <a class="site-messanger" href="#!">
+                <svg class="site-messanger-link" width="20px" height="20px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-twitter"> </use>
+                </svg>
+              </a>
+            </li>
+            
+            <li>
+              <a class="site-messanger" href="#!">
+                <svg class="site-messanger-link" width="20px" height="20px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-facebook"> </use>
+                </svg>
+              </a>
+            </li>
+            
+            <li>
+              <a class="site-messanger" href="#!">
+                <svg class="site-messanger-link" width="20px" height="20px">
+                  <use href="./hero-img-and-svg/optimized-symbol-defs.svg#icon-linkedin"> </use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+          
+        <div class="mail-form">
+          <h3 class="footer-form-title">Подпишитесь на рассылку</h3>
+          <form class="footer-form">
+            <label class="mail-field" for="mail"> </label>
+            <input class="footer-input" type="email" name="mail" id="mail" placeholder="Email">
+            <button type="submit" class="mail-footer-button">Подписаться</button>
+          </form>
+        </div>
+
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal data-modal">
+
+        <button class="modal-button" data-modal-close>
+          <svg class="cross-icon" width="11" height="11">
+            <use href="./hero-img-and-svg/optimized-symbol-defs.svg#cross-icon"></use>
+          </svg>
+        </button>
+
+        <form class="studio-form">
+          <span class="form-title">Оставьте свои данные, мы вам перезвоним</span>
+          <div class="form-field top-title-margin">
+            <label class="label-form" for="name">Имя</label>
+            <input class="form-input" type="text" name="name" id="name"> 
+            <svg class="intend-icon" width="18" height="18" >
+              <use href="./hero-img-and-svg/optimized-symbol-defs.svg#person-icon"></use>
+            </svg>
+          </div>
+
+          <div class="form-field">
+            <label class="label-form" for="tel">Телефон</label>
+            <input class="form-input" type="text" name="tel" id="tel">
+            <svg class="intend-icon" width="18" height="18">
+              <use href="./hero-img-and-svg/optimized-symbol-defs.svg#tell-icon"></use>
+            </svg>
+          </div>
+
+          <div class="form-field">
+            <label class="label-form" for="email">Почта</label>
+            <input class="form-input" type="text" name="email" id="email">
+            <svg class="intend-icon" width="18" height="18">
+              <use href="./hero-img-and-svg/optimized-symbol-defs.svg#convert-icon"></use>
+            </svg>
+          </div>
+
+          <div class="form-field last-field">
+            <label class="label-form text-form" for="comment">Комментарий</label>
+            <textarea class="comment" name="comment" id="comment" rows="9" placeholder="Введите текст"></textarea>
+          </div>
+
+          <div class="agreement-line">
+            <label class="agreement" >
+            <input class="checkbox" type="checkbox" name="policy" id="policy">
+            <span class="check-icon"></span>
+            Соглашаюсь с рассылкой и принимаю 
+            <a href="#!" class="policy-link">Условия договора</a>
+            </label>
+          </div>
+          
+          <button type="submit" class="modal-submit-button">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
+  </body>
+</html>
